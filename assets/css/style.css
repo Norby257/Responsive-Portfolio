@@ -242,18 +242,22 @@ input[type=submit] {
 /* media queries */
 
 @media screen (and max-width: 980px) {
-  .main-section {
-    height: 489;
-    width: 243;
+ section .main-section {
+    height: 489px;
+    width: 243px;
   }
   
 }
 
 
 @media screen (and max-width: 768px) {
-  .main-section {
+  section .main-section {
     height: 326px;
     width: 343px;
+  }
+
+ section .sidebar {
+    clear: both;
   }
 
   
@@ -261,12 +265,23 @@ input[type=submit] {
 
 
 @media screen (and max-width: 640px) {
-  #masthead {
+  header #masthead {
     position: static;
   }
 
-  #logo {
+ header  #logo {
     width: 100%;
+  }
+
+  nav a first-child{
+    float:left;
+    display: inline-block;
+
+  }
+
+  nav a second-child {
+    float: left;
+    display: inline-block;
   }
 
   .sidebar {
