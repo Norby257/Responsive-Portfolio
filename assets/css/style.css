@@ -264,28 +264,4 @@ input[type=submit] {
 }
 
 
-@media screen (and max-width: 640px) {
-  header #masthead {
-    position: static;
-  }
-
- header  #logo {
-    width: 100%;
-  }
-
-  nav a first-child{
-    float:left;
-    display: inline-block;
-
-  }
-
-  nav a second-child {
-    float: left;
-    display: inline-block;
-  }
-
-  .sidebar {
-    clear:both;
-    float: left; /* for now */
-  
-}
+ 
