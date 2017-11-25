@@ -241,6 +241,11 @@ input[type=submit] {
 
 /* media queries */
 @media screen and (max-width: 980px)   {
+
+  .main {
+      max-width: 980px;
+
+  }
   /* header */
   #masthead {
     width:100%;
@@ -258,18 +263,51 @@ input[type=submit] {
       padding: 7px;
 
     }
+
+
+    /* main */
+
+  .main-section {
+    width: 45%;
+    height: 75%;
+    margin-left: 77px;
+  }
+
+  .sidebar  {
+    margin-right: 77px;
+  }
+
+
+  .auth-image {
+    width: 203px;
+    height: 154px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   
 }
 
 
-@media screen and (max-width: 768px)   {
+
+
+/*/*@media screen and (max-width: 768px)   {
+  /* main */
+
+/*.main-section {
+  width: 455px;
+  height: 319px;
+}
   
 }
+
+
 
 
 @media screen and (max-width: 640px)   {
+
   
 }
 
 
  
+*/*/*/
