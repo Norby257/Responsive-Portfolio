@@ -247,7 +247,7 @@ input[type=submit] {
   }
 
   .main {
-      max-width: 980px;
+      width: 45%;
 
   }
   /* header */
@@ -280,7 +280,7 @@ input[type=submit] {
   }
 
   .sidebar  {
-    margin-right: 77px;
+    margin-right: 145px;;
   }
 
 
@@ -290,6 +290,19 @@ input[type=submit] {
     margin-left: 20px;
     margin-right: 20px;
   }
+
+
+  img {
+    height: 60%;
+    width: 60%;
+    margin-left: 10%;
+
+  }
+  section h3 {
+    border-bottom: 2px solid transparent;
+  }
+
+
   
 }
 
@@ -352,7 +365,8 @@ input[type=submit] {
 
 
      .side-bar {
-      max-width: 576px;
+     max-width: 90%;
+      margin:auto;
      }
 }
 
