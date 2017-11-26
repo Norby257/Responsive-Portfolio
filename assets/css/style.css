@@ -343,7 +343,16 @@ input[type=submit] {
     border-bottom: 2px solid transparent;
   }
 
+  .work h3 {
+     margin-left: 10%;
+  }
 
+  .social {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   
 }
 
@@ -369,16 +378,38 @@ input[type=submit] {
       max-width: 176px;
     }
     .main-section {
-      width: 90%;
+      width: 67%;
       margin-top: -25px;
     }
 
     .side-bar {
-      max-width: 647px;
+      max-width: 67%;
+      margin-right: 25%;
     }
   
   .auth-image {
     float:left;
+  }
+
+  img {
+    height: 60%;
+    width: 60%;
+    margin-left: 10%;
+
+  }
+  section h3 {
+    border-bottom: 2px solid transparent;
+  }
+
+  .work h3 {
+     margin-left: 10%;
+  }
+
+  .social {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
  
@@ -395,20 +426,39 @@ input[type=submit] {
     #masthead {
     position: static;
 
-
-
-
   }
 
      .main-section {
-      width: 90%;
+      width: 37%;
      }
 
 
      .side-bar {
-     max-width: 90%;
-      margin:auto;
+     max-width: 37%;
+    margin-right:55%;
+
      }
+
+    img {
+    height: 60%;
+    width: 60%;
+    margin-left: 10%;
+
+  }
+  section h3 {
+    border-bottom: 2px solid transparent;
+  }
+
+  .work h3 {
+     margin-left: 10%;
+  }
+
+  .social {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 
