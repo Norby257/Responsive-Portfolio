@@ -321,7 +321,8 @@ input[type=submit] {
   }
 
   .sidebar  {
-    margin-right: 145px;;
+    margin-right: 145px;
+    width: 45%;
   }
 
 
@@ -382,8 +383,8 @@ input[type=submit] {
       margin-top: -25px;
     }
 
-    .side-bar {
-      max-width: 67%;
+    section.sidebar {
+      width: 67%;
       margin-right: 25%;
     }
   
@@ -432,10 +433,15 @@ input[type=submit] {
       width: 37%;
      }
 
+     .auth-image {
+      width: 96%;
+      height: 73%;
+     }
 
-     .side-bar {
-     max-width: 37%;
-    margin-right:55%;
+
+     section.sidebar {
+     width: 37%;
+    margin-right:51%;
 
      }
 
