@@ -138,6 +138,13 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+a, a :visited, a:hover, a:active {
+  color: #fff;
+  text-decoration: none;
+  
+  
+}
+
 /* footer */
 
 footer {
